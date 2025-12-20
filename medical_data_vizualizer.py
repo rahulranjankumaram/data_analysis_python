@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('/home/rrr/Desktop/medical_examination.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/rahulranjankumaram/data_analysis_python/refs/heads/main/medical_examination.csv')
 
 df['overweight'] = (df['weight']/((df['height']/100)**2)>25).astype(int)
 
