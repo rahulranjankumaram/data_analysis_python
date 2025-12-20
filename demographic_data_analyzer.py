@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('/home/rrr/Downloads/adult.data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/rahulranjankumaram/data_analysis_python/refs/heads/main/adult_data.csv')
 
 print('representation of people of each race')
 data = pd.Series(df['race'])
