@@ -7,3 +7,5 @@ demographic_data_analyzer.py contains performed demographic analysis on the adul
 medical_data_visualizer.py contains performed medical and health analysis on the medical_examination.csv.
 
 time_series_visualizer.py contains the time series analysis on the fcc-forum-pageviews.csv.
+
+sea_level_predictor.py contains performed linear regression and sea level rise prediction on epa-sea-level.csv
